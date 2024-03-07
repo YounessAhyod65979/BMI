@@ -6,16 +6,16 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        float heightBielecki, weightBielecki, bmi ;
+        float heightAhyod, weightAhyod, bmi ;
 
         System.out.println("Enter your height in meters then press enter( example: 1.80): ");
-        heightBielecki = scanner.nextFloat();
+        heightAhyod = scanner.nextFloat();
 
         System.out.println("Enter your weight in kilograms then press enter (example 85): ");
-         weightBielecki = scanner.nextFloat();
+         weightAhyod= scanner.nextFloat();
 
 
-         bmi = weightBielecki / (float) Math.pow(heightBielecki, 2);
+         bmi = weightAhyod / (float) Math.pow(heightAhyod, 2);
 
 
         String category;
